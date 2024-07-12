@@ -1,0 +1,68 @@
+.user-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list th, .user-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-list button {
+    margin-right: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button[type="button"] {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+
+  .edit-button:hover{
+    background-color: orange;
+  }
+
+  .delete-button:hover{
+    background-color: red;
+  }
+
+
+  
